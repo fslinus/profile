@@ -1,9 +1,9 @@
 [user]
-  email = kyle.burton@gmail.com
-	name = Kyle Burton
+  email = graybill@gmail.com
+	name = Linus Graybill
 
 [core]
-        excludesfile = /home/kburton/.gitignore
+        excludesfile = /Users/linus/.gitignore
         editor = /usr/local/bin/vim
 
 [color]
