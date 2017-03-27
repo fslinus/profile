@@ -1,0 +1,32 @@
+[user]
+  email = kyle.burton@gmail.com
+	name = Kyle Burton
+
+[core]
+        excludesfile = /home/kburton/.gitignore
+        editor = /usr/local/bin/vim
+
+[color]
+        ui = auto
+        diff = auto
+        status = auto
+        interactive = auto
+[alias]
+        st = status
+        au = add -u
+        pt = add --patch
+        ci = commit -v
+        cia = commit -am
+        br = branch
+        co = checkout
+        df = diff
+        dfc = diff --cached
+        lg = log -p
+        spull = !git-svn fetch && git-svn rebase --local
+        spush = !git-svn dcommit
+	      pob = !"git pull --rebase origin $(git rev-parse --abbrev-ref HEAD)"
+        pub = !"git push origin $(git rev-parse --abbrev-ref HEAD)"
+        repub = !git pob && git pub
+        lg = log -p
+        cfg = config --global
+        cim = commit -m
