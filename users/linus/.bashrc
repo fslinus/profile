@@ -13,7 +13,7 @@ fi
 test -f /etc/bashrc && . /etc/bashrc
 
 . ~/.profile.d/init
-. ~/.profile.d/users/kburton/kyle.burton.conf
+. ~/.profile.d/users/linus/kyle.burton.conf
 
 export PATH
 alias s='cd ..'
@@ -77,3 +77,4 @@ if [ -e /usr/local/bin/aws_completer ]; then
   complete -C '/usr/local/bin/aws_completer' aws
 fi
 
+export PATH="/usr/local/sbin:$PATH"

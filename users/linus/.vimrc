@@ -1,13 +1,6 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-" Plugin 'fatih/vim-go'
-Plugin 'klen/python-mode'
-Plugin 'wting/rust.vim'
-call vundle#end()
 filetype plugin indent on
 
 set backspace=indent,eol,start
@@ -39,7 +32,7 @@ set ruler " Show ruler
 " Setup backup location and enable
 set backupdir=~/.vim/backup
 set backup
- 
+
 " Set Swap directory
 set directory=~/.vim/backup/swap
 
