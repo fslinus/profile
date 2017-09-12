@@ -78,3 +78,6 @@ if [ -e /usr/local/bin/aws_completer ]; then
 fi
 
 export PATH="/usr/local/sbin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
