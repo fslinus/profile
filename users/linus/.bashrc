@@ -13,7 +13,7 @@ fi
 test -f /etc/bashrc && . /etc/bashrc
 
 . ~/.profile.d/init
-. ~/.profile.d/users/linus/kyle.burton.conf
+. ~/.profile.d/users/linus/graybill.conf
 
 export PATH
 alias s='cd ..'
