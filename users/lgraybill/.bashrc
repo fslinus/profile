@@ -13,7 +13,7 @@ fi
 test -f /etc/bashrc && . /etc/bashrc
 
 . ~/.profile.d/init
-. ~/.profile.d/users/linus/graybill.conf
+. ~/.profile.d/users/lgraybill/lgraybill.conf
 
 export PATH
 alias s='cd ..'
@@ -78,3 +78,4 @@ if [ -e /usr/local/bin/aws_completer ]; then
 fi
 
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/node@8/bin:$PATH"
